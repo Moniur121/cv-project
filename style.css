@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    height: 1000px;
+    background-color: hsla(180, 46%, 58%, 0.226);
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+h1,h2,h4,h5,h6{color:#11999e}
+.profile-bio{
+     padding: 30px;
+     padding-right: 20px;
+}
+.profile-link-bio{
+    float: right;
+    margin-top: -90px;
+    
+}
+.profile-link-bio p a{
+    text-decoration: none;
+    color: teal;
+    
+}
+.profile-link-bio p a:hover{
+    text-decoration: underline;
+    color: linear-gradient(blue, cyan);
+}
+.header-clear{
+    clear: both;
+}
+.header-hr{
+    border: 3px solid black;
+    margin: 10px;
+    width: 100%;
+    border-bottom: none;
+}
+#personal-content{
+
+}
+.content{
+   margin: 30px;
+}
+.left-content{
+    width: 30%;
+    float: left;
+}
+.right-content{
+    width: 70%;
+    float: right;
+    text-align: justify;
+}.personal-hor{
+     border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}.experience{
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
+.color-highlight{
+    color:  lightsalmon;
+    
+}
