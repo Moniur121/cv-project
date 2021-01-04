@@ -14,10 +14,12 @@ body{
     margin-top: 10px;
     padding: 20px;
 }
+ 
 .profile-image{
     width: 100px;
     height: 120px;
     float: left;
+     
     border: 3px solid white;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -29,12 +31,16 @@ body{
 h1,h2,h4,h5,h6{color:#11999e}
 .profile-bio{
      padding: 30px;
-     padding-right: 20px;
+      margin-left: 30px;
 }
 .profile-link-bio{
     float: right;
     margin-top: -90px;
+     
     
+}
+.color-add{
+    color: linear-gradient(blue,cyan);
 }
 .profile-link-bio p a{
     text-decoration: none;
